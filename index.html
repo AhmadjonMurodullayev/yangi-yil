@@ -184,6 +184,26 @@
             font-size: 5px;
         }
 
+        .logo {
+            width: 30px;
+            padding: 4px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+
+        }
+
+        h4 {
+            font-family: sans-serif;
+            color: gold;
+        }
+
         /* Very small screens (portrait mode) */
         @media screen and (max-width: 400px) {
             input[type="text"] {
@@ -213,6 +233,9 @@
 </head>
 
 <body>
+    <div class="logo">
+        <h4>M.A</h4>
+    </div>
     <div class="container">
         <div class="input-section" id="inputSection">
             <input class="inputss" type="text" id="nameInput" placeholder="Ismingizni kiriting yoki kirishni bosing 👇">
